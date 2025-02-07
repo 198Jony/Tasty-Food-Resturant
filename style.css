@@ -5,5 +5,24 @@
     font-weight: 400;
     font-style: normal;
   }
+
   
-  
+  .wonton{
+    background-image: url('image/Rectangle 2 (1).png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    
+  }
+
+  @media screen and (max-width:576px){
+      
+    .wonton{
+      background-image: url('image/Rectangle 2 (1).png');
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 400px;
+      
+    }
+
+  }
